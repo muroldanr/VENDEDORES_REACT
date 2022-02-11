@@ -1,0 +1,9 @@
+.saveButton{
+	background-color: var(--colorprimary) !important;
+	border-color:#fff !important;
+}
+
+.closeButton{
+	background-color: #969696 !important;
+	border-color:#969696 !important;
+}

@@ -1,0 +1,15 @@
+#body_cotizar {
+    width: calc(100% - 60px );
+    min-height: 100vh;
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--backgroundPrimary);
+}
+
+.container-fluidCotizar{
+	width: calc(100% - 60px );
+    height: 100vh;
+    margin-left: 60px;
+    padding-top: 20px;
+}

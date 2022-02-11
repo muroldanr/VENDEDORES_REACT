@@ -1,0 +1,10 @@
+#body_autorizaciones {
+    min-height: 100vh;
+    padding-top: 20px;
+    background-color: var(--backgroundPrimary);
+}
+
+.cardBlack{
+	background: var(--colorprimary) !important ;
+    color: white !important ;
+}

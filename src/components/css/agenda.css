@@ -1,0 +1,69 @@
+#body_agenda {
+    width: calc(100% - 60px );
+    min-height: 100vh;
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--backgroundPrimary);
+}
+.react-calendar {
+    width: 100%;    
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);       
+}
+.myUser {
+    color: var(--colorprimary);    
+    
+}
+span {
+    /*color: var(--colorprimary);*/
+    background: none;
+    /*margin-left:-50px;*/
+}
+.react-calendar button{
+    height:70px;
+}
+.boton {
+    width:90%;
+    display: inline-block;
+    min-width: 160px;    
+    height: 45px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 !important;
+    padding: 0 7px;
+    font-size: 18px !important;
+    line-height: 56px;
+    background-color: var(--colorprimary) !important;
+    font-weight: 400;
+    border-color: var(--colorprimary) !important;
+    margin-top: 10px;
+    font-weight: bold !important;
+}
+.input-group-text {
+    background-color:var(--colorprimary) !important;
+    color: #fff !important;
+}
+
+#save {
+    background-color: var(--colorprimary);
+    color: #fff;
+}
+
+#save:hover {
+        background-color: #fff;
+        color: var(--colorprimary); 
+
+}
+#save{
+    background-color:var(--colorprimary);
+    color:#fff;
+}
+#save:hover {
+    background-color: #fff;
+    color: var(--colorprimary);
+}
+.react-calendar__tile--active{
+    background-color:var(--colorprimary) !important;
+    border-color: #000 !important;
+}
+

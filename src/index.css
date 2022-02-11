@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    background-color:var(--backgroundPrimary) !important;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   background-color:var(--backgroundPrimary) !important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+:root {
+  -c-orange: #F060D6;
+  -c-red: #BB532E;
+  -c-blue: #4C9FEB;
+  -c-green: #008000;
+
+  -c-gray-1: #eee;
+  -c-gray-2: #ccc;
+  -c-gray-3: #555;
+  
+  --colorprimary:         #2a2f30;
+  --colorprimaryRGB:      rgb(42, 47, 48);
+  --colorprimaryRGBA:     rgba(42, 47, 48,0.8);
+  --colorsecondary:       #2a2f30;
+  --colorsecondaryRGB:    rgb(42, 47, 48);
+  --colorsecondaryRGBA:   rgba(42, 47, 48,0.8);
+  --backgroundPrimary:    #FFFFFF;
+  --backgroundCard:       #FFFFFF;
+  --colorlight:           #474E50;
+  /*--colorAccent:          rgba(255, 175, 82,1);*/
+  --colorAccent:          rgba(68, 84, 112,0.8);
+  --colorAccentSecondary: #666666; 
+  --borderForm:           #ced4da;
+}
+
+.btn-primary{
+  background: var(--colorlight) !important;
+  background-color: var(--colorlight) !important;
+  border-color: var(--colorprimary) !important;
+}
+

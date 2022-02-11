@@ -1,0 +1,165 @@
+#body_articulos {
+    width: calc(100% - 60px );
+    min-height: 100vh;
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    overflow-x: hidden;
+    background-color: var(--backgroundPrimary);
+}
+#serch_container{
+    width:100%;
+    margin-bottom: 0px;    
+}
+.form-group {
+    width: calc(100% - 240px ) !important;
+    margin-left:10% !important;
+}
+#products_container {
+    margin-left: 0%;
+}
+.Card {
+	margin-left:10px;
+	display: inline-block;
+	margin-top:20px;
+    height: 10em
+}
+.pagination li.active{
+	margin-left:80%;
+}
+
+.botonsearch{
+        text-align: center;
+    display: inline-block;
+    min-width: 100%;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    background-color: var(--colorprimary)!important;
+    font-weight: 400;
+    border-color: var(--colorprimary)!important;
+    font-weight: bold;
+    width:100%; 
+}
+
+.carduno{
+height: 15em;
+}
+
+.pagination li.active{
+	background-color:var(--colorprimary);
+}
+#mostrar{
+    margin-left:70px;
+    background-color:var(--colorprimary);
+    color:#ffffff;
+}
+.texto1 { 
+    color: var(--colorprimary);
+    text-decoration: none;
+
+    font-size: 20px;   
+}
+
+.texto1:hover {
+  color: var(--colorprimary);
+  text-decoration: none;
+  font-size: 20px;
+}
+.texto2 { 
+    color: #000 !important;
+    font-size: 20px;
+}
+.pieDePagina{
+    justify-content: center;
+}
+
+.buscador{
+    border-radius: 1em !important;
+}
+.spamprecio{
+    margin-left: 0em !important;
+    width: 100% !important;
+    color: black !important;
+}
+
+.spamprecioDescuento{
+  margin-left: 0em !important;
+  width: 100% !important;
+  color: white !important;
+}
+
+.ajusteinpud{
+    padding-left: 18px !important;
+    padding-right: 11px !important;
+}
+
+
+/* widget toogle switch **/
+.switch-widget {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch-widget input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-widget > .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch-widget > .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch-widget > input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.switch-widget > input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.switch-widget > input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.switch-widget > .slider.round {
+  border-radius: 34px;
+}
+
+.switch-widget > .slider.round:before {
+  border-radius: 50%;
+}
+
+.label-switch-widget {
+  height: 34px;
+  display: inline-block;
+}
+
+.pt-button-artsearch {
+  padding-top: 2.4em !important;
+}

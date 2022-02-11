@@ -1,0 +1,41 @@
+.custom-checkbox .custom-control-label::before{
+	border:solid 2px;	
+}
+
+.custom-checkbox .custom-control-label::after{
+	
+}
+#pasando{
+
+	margin-left: 45px;
+	color:black;
+
+}
+
+#recomendacion{
+
+	margin-left: 15px;
+	color:grey;
+
+}
+#campana{
+
+	margin-left: 15px;
+	color:black;
+
+}
+
+#cliente{
+	margin-left: 20px;
+	color:green;
+}
+
+#facebook{
+	margin-left: 38px;
+	color: blue;
+
+}
+#youtube{
+	margin-left: 20px;
+	color:red;
+}

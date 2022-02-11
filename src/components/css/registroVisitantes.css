@@ -1,0 +1,20 @@
+.Alinself{
+	align-self: center;
+}
+
+#body_registroVisitantes {
+    min-height: 100vh;
+    background-color: var(--backgroundPrimary);
+}
+
+.BotonPlus{
+	background-color: var(--colorAccent);
+    position: fixed;
+    right: 2em;
+    bottom: 3em;
+    border-radius: 100%;
+    width: 66px;
+    height: 56px;
+    padding-right: 1px;
+    padding-left: 1px;
+}

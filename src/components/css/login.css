@@ -1,0 +1,43 @@
+div.banner-avanti {
+    position: fixed;
+    height: 7em;
+    left: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+div.banner-avanti > span {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(0,0,0, 0.6);
+    font-size: 1.8em;
+    color: white;
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+.item-banner span {
+    color: white;
+    background: rgba(0,0,0,0.6);
+    height: auto;
+    width: 100%;
+    font-size: 1.6em;
+    font-family: Roboto;
+    padding: 2px;
+}
+
+.item-banner .banner-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}

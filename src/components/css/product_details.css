@@ -1,0 +1,99 @@
+
+#body_productDetail {
+    width: calc(100% - 60px );
+    min-height: 100vh;
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--backgroundPrimary);
+}
+.table_title {   
+    background-image:linear-gradient(to right,var(--colorprimary), var(--colorsecondary), var(--colorprimary)) !important;
+    border-radius: 25px 25px;
+    color: #fff;
+}                       
+#tabla1 {
+    width:100%;    
+    margin-top: 2%;        
+}
+#contenedorBoton{
+    position: fixed;
+    margin-top: 25%;
+}
+#tabla2 {
+    width: 100%;
+    margin-top: 2%;      
+}
+.algo {
+    background-image: url("../images/products/pro-big-2.jpg") !important;
+    background-repeat: no-repeat;    
+    width: 600px;
+    height: 300px;
+}
+h1{
+    text-align:center;
+}
+h3{
+    text-align:center;
+    color:var(--colorprimary);
+}
+
+.miBoton {    
+    width: 50px;
+    height: 50px;
+    background-color: var(--colorprimary) !important;
+    border-radius: 100% !important;
+    z-index: 60;
+    border-color: #fff !important;
+    box-shadow: 0 0 0 0.2rem var(--colorsecondary) !important;  
+
+}
+.car {
+    color: #fff;  
+    margin-left:-2px;
+
+}
+
+/*Nav*/
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-top-color: var(--colorprimary) !important;
+    border-right-color: var(--colorprimary) !important;
+    border-bottom-color: #fff !important;
+    border-left-color: var(--colorprimary) !important;
+}
+.nav-tabs .nav-link {
+    color: var(--colorprimary) !important;
+}
+#containerBtnCar{
+    position: fixed;
+}
+
+.TextoDeCartaDeObjetos{
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    padding: 10px;
+}
+.imagenDeObjetos{
+    width: 30% ;
+    display: inline-block;
+    float: left;
+    margin-bottom: 0px;
+}
+.textoObjetoArticulos{
+    text-align: left;
+    font-weight: 700;
+}
+
+.detalle-carrito-button {
+    display: block !important;
+    text-align: center !important;
+}
+
+.content-carrusel-detalle {
+    min-height: 285px;
+}
+
+.container-details-articulo, .container-details-articulo > .row, .container-details-articulo > .col {
+    padding: 0px;
+}

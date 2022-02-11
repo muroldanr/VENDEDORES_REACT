@@ -1,0 +1,7 @@
+[WebUsuario.frm/Acciones.Guardar]
+EjecucionCondicion=Si<BR> condatos(WebUsuario:WebUsuario.Contrasena)<BR>Entonces<BR><BR>   Si<BR>      Longitud(WebUsuario:WebUsuario.Contrasena)< 32<BR>        Entonces<BR>           Asigna(WebUsuario:WebUsuario.Contrasena, MD5(WebUsuario:WebUsuario.Contrasena, <T>p<T>))<BR><BR>   Fin<BR><BR>Fin
+
+[WebUsuario.frm/Forma]
+PosicionInicialIzquierda=338
+PosicionInicialArriba=67
+

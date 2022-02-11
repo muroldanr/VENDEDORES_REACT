@@ -1,0 +1,27 @@
+.texto1 { 
+    color: var(--colorprimary);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center !important;    
+}
+
+.texto1:hover {
+  color: var(--colorprimary);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.body-container {
+  width:calc(100% - 60px );
+  min-height:100vh;
+  margin-left:60px;
+  padding-top:20px;
+  margin-bottom: 30px;
+  background-color: var(--backgroundPrimary);
+}

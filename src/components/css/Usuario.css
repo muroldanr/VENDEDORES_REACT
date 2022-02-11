@@ -1,0 +1,45 @@
+.botonUsuario{
+    text-align: center;
+    display: inline-block;
+    min-width: 100%;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    background-color: var(--colorprimary);
+    font-weight: 400;
+    border-color: var(--colorprimary);
+    font-weight: bold;
+    width:100%; 
+}
+
+.med{
+    text-align: center ;
+    vertical-align: middle ;
+}
+
+.modalCerrarUsuario{
+    align-self: center;
+}
+
+.cerrarSesionBoton{
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+    margin-right: 50px !important;
+    background-color: var(--colorprimary) !important;
+    border-color: var(--colorprimary) !important;
+}
+
+.cerrarSesionBotonNo{
+    background-color: var(--colorprimary) !important;
+    border-color: var(--colorprimary) !important;
+}
+
+.ajusteDeAyudaModal{
+    align-self: center;
+}
+
+.ajusteParrafo{
+    margin-bottom: 0px;
+    display: -webkit-inline-box;
+    margin-left: 20px;
+}

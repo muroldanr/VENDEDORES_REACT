@@ -1,0 +1,209 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+
+.BigCalendar {
+	font-family: sans-serif;
+	text-align: center;
+	z-index: 0;
+}
+
+#mycalendartest h2 {
+    font-size: 1.3em;
+}
+
+.widget-calendar{	
+	margin-left: 2%;
+	height: auto;
+	max-width: 70%;
+}
+
+.widget-actividad{
+	border: 1px solid #ccc;
+	position: fixed;
+	width: 20%;
+	top: 80px;
+	z-index: 2;
+	padding: 0 10px;
+	background: rgba(0,0,0,0.5);
+	color:#fff;
+	border-radius:10px 0px 0px 10px;
+	margin-left: 72.5%;
+}
+
+.widget-actividad .tarea {
+	margin: 1em 0;
+	padding: .7em;
+	border-radius: 5px;
+	cursor: move;
+	background-color: var(--colorprimary);
+}
+
+#external-events{
+	position: fixed;
+	top:40%;
+	right: 0px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 78px;	
+	border: 1px solid #ccc;	
+	z-index: 2;
+	padding: 0 10px;
+	background: var(--colorprimary);
+	color:#fff;
+	border-radius:10px 0px 0px 10px;
+	margin-left: 83% !important;
+	padding: "10px";                 
+    height: "auto";                   
+}
+
+.add-tarea{
+	margin: 1em 0;
+	width: 50%;
+	height: 30px;
+	background: #fff;
+	color:#000;
+	border-radius: 5px;
+	cursor: pointer;  
+}
+
+#external-events .fc-event {
+	text-align: center;
+	width: 50px;
+	padding: .5em;
+	margin: 1em 0;
+	cursor: move;  
+	height: auto;
+	background: var(--colorprimary);
+	border-color:  var(--colorprimary);
+	color:#fff;
+	border-radius: 0px;
+	font-size: 15px;
+	margin-left: 5%;
+	border-radius: 10px;
+}
+
+table-bordered thead tr th span {
+	float: right;
+	margin-right: 15px;
+    margin-bottom: 24px;
+	height: 40px;
+
+}
+
+.table-bordered tbody tr{
+	height: 40px;
+	background: 
+}
+
+.table-bordered tbody tr td{
+	height: 40px;
+}
+
+.fc-event, .fc-event-dot {
+    background-color: var(--colorprimary);
+    border-color:  var(--colorprimary);
+}
+
+
+.fc-ltr .fc-axis {
+    vertical-align: baseline;
+}
+
+
+.fc-prevYear-button span {    
+    color: #fff;
+    display: table-cell;
+
+    
+}
+
+.fc-prev-button {
+
+    width: 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.fc-prev-button span {
+    color: #fff;
+    display: table-cell;       
+}
+.fc-next-button {
+    width: 60px;
+}
+
+.fc-next-button span {
+    color: #fff;
+    display: table-cell;
+}
+.fc-nextYear-button {
+    width: 60px;
+}
+.fc-nextYear-button span{
+    color: #fff;
+    display: table-cell;     
+}
+
+.fc-content  {
+	max-height: 50px;
+	background-color: rgba(51, 173, 255,0.2) !important;
+}
+
+.fc-content span {
+	display: table-row;
+	color: #fff;
+}
+
+/* horas */
+
+.fc-axis fc-time fc-widget-content {
+    width: 100px;
+}
+
+.fc-title{
+	color: #fff;
+}
+
+/* lineas orizontales*/
+
+.fc-minor{
+	color: #fff;
+	font-size: 20px;
+	border: solid 1px #fff;
+}
+
+/* Lineas verticales */
+.fc-day-header span{
+	display: contents;
+}
+
+.fc-content-skeleton .fc-axis{ 	
+}
+/*botones dia, semana,mes  */
+.fc-right{
+	display: inline-flex;	
+}
+/*botones dia, semana,mes  */
+.btn-group{
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+}
+
+#calendar a.fc-event {
+    opacity: 0.25;
+}
+
+.mifondo{
+	background: ('../components/images/intelisis.png')
+}
+.fc-axis fc-time{
+	margin-left: 50px;
+}
+
+.react-datetime-picker__wrapper{
+	border-radius: 5px;
+	padding: 5px;
+	border-color:  1px solid var(--borderForm);
+}

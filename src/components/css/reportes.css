@@ -1,0 +1,40 @@
+#body_reportes {
+    width: calc(100% - 60px );
+    min-height: 100vh;
+    margin-left: 60px;
+    padding-top: 20px;  
+    margin-bottom: 30px;
+    background-color: var(--backgroundPrimary); 
+}
+#graphUno{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.graphContainer{
+	width: 50%;
+	height: 100%;	
+	z-index: 50;
+}
+#graphContainer{
+	z-index: 50;
+}
+
+#graphContainer{
+	background-color: #fff !important;
+	z-index: 50 !important;
+}
+#botonUnoId{
+	margin-top: 0px;
+}
+
+.loading-graph {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.chart-content {
+    display: inline-block;
+    margin: 0px auto;
+}

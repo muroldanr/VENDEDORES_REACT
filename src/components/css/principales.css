@@ -1,0 +1,88 @@
+
+#body_principales {
+    width:calc(100% - 60px );
+    min-height:100vh;
+    margin-left:60px;
+    padding-top:20px;
+    margin-bottom: 30px;
+    background-color:var(--backgroundPrimary);
+}
+/* Canvas */
+#canvas{
+    cursor: pointer;
+}
+/*Grafica*/
+.div_container {
+    width: 100%;    
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: center !important;       
+}
+
+.image_grafic {
+    width: 40%;
+    height:auto;
+    margin-top: 0px;
+}
+/*Botones*/
+#butons_container {
+    width: 100%;
+    height: 75px;    
+    margin-top:40px;
+}
+
+.boton {
+    display: inline-block;
+    min-width: 160px;
+    margin-left: 30px;
+    height: 45px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 !important;
+    padding: 0 7px;
+    font-size: 18px !important;
+    line-height: 56px;
+    background-color: var(--colorprimary) !important;
+    font-weight: 400;
+    border-color: var(--colorprimary) !important;
+    margin-top: 10px;
+    font-weight: bold !important;
+}
+.container{
+    margin-bottom: 50px;
+}
+/*Tabla*/
+.tabla_container {
+    width: 94% !important;  
+    margin-left:3%;
+    margin-right:3%;
+    margin-top:0px;
+    vertical-align: middle !important;
+    text-align: center !important;        
+}
+.table_title{
+    background-color:var(--colorprimary);
+    color:#fff;
+}
+.table td, .table th {
+    border: 0.5px solid #dee2e6!important;
+}
+.Botondetabla{
+    text-align: center;
+}
+.ajusteDeLetreroTabla{
+    margin-top: 10rem;
+}
+.botonsear{
+    text-align: center;
+    display: inline-block;
+    min-width: 100%;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    background-color: var(--colorAccentSecondary) !important;
+    font-weight: 400;
+    border-color: var(--colorAccentSecondary) !important;
+    font-weight: bold;
+    width:100%; 
+}

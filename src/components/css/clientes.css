@@ -1,0 +1,75 @@
+#body_clientes {
+    width: calc(100% - 60px );
+    min-height: 100vh;
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--backgroundPrimary);
+}
+/*Inputs*/              
+#container_inputs{
+    width:90%;    
+    margin-left:5%;
+    margin-right:5%;    
+}
+#select{
+    margin-bottom:40px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem var(--colorsecondary) !important;
+}
+.title {
+    margin-top: 0px;
+    margin-bottom:40px;
+}
+.form-group{
+    width: 100%;
+    margin-left:23%;
+}
+.inputs {    
+    width:100% !important;        
+    margin-top:25px;
+
+}
+#inp {
+    width: 100% !important;
+    float: left;       
+    
+}
+input[type=text] {
+    color: var(--colorprimary) !important;
+    text-decoration-color: var(--colorprimary);    
+    
+}
+input[type=text]:focus {
+    box-shadow: 0 0 0 0.2rem var(--colorsecondary)
+}
+
+#table_container {
+    margin-top: 5%;
+}
+
+.table_title {
+    background-color: var(--colorprimary);
+    color: #fff;
+}
+.link{
+    text-decoration-line: none !important;   
+}
+.table-bordered td {
+    border: none !important;
+}
+.noLink:hover {
+    text-decoration-line: none !important;
+}
+
+.btnBuscar{
+    width: 100%;
+}
+
+#myIconSearch{
+    float: center;        
+}
+
+

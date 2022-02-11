@@ -1,0 +1,283 @@
+
+.vInput{
+    display: inline-block;
+    border-color: #fff !important;
+    border-color: none !important;
+    text-align: center !important;
+    margin: 0px 2px;
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid ;
+}
+.menos{
+  background-color: var(--colorAccentSecondary) !important;
+  color: #fff !important;
+  border-radius: 10px 0px 0px 10px !important;
+  border-color: var(--colorAccentSecondary) !important;
+  width: 25px !important;
+  height: 100%;
+}
+
+.mas{
+  background-color: var(--colorAccentSecondary) !important;
+  color: #fff !important;
+  max-width: 25px;
+  border-radius: 0px 10px 10px 0px !important;
+  border-color: var(--colorAccentSecondary) !important;
+  height: 100%;
+}
+.imagen{
+  max-width: 7em !important;
+  vertical-align: middle !important;	
+}
+.botonNumero{
+  min-width: 6.7em !important;
+  width: 150px !important;	
+}
+
+.botonpipeline{
+
+  width: 100px;
+  height: 50px;
+  background-color: var(--colorAccent) !important;
+  border-radius: 15% !important;
+  border-color: #fff !important;
+  z-index: 15;
+  box-shadow: 0 0 0 0.2rem var(--colorAccentSecondary) !important;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+
+}
+
+.botoncirculo{
+    width: 50px;
+    height: 50px;
+    background-color: var(--colorAccent) !important;
+    border-radius: 100% !important;
+    border-color: #fff !important;
+    z-index: 15;
+    box-shadow: 0 0 0 0.2rem var(--colorAccentSecondary) !important;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.titulo{
+margin-bottom: 0px !important;
+font-size: 25px;
+}
+
+#body_principales-a {
+  width:calc(100% - 60px );
+  min-height:100vh;
+  margin-left:60px;
+  padding-top:20px;
+  background-color: var(--backgroundPrimary);
+}
+#tablacarrito{
+ margin-top: 1000px !important;
+}
+.md {
+	text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.imagen-nav{
+  max-height: 40px;
+}
+
+.content-nav{
+  max-height: 60px;
+  background-color: var(--colorAccentSecondary); 
+}
+
+hr.style2 {
+  border-top: 3px double #8c8b8b;
+}
+
+.check{
+  transform: scale(1.5);
+  vertical-align: middle;
+  margin-top: 0.5em;
+}
+
+.ajustesDeModal{
+  margin-top: 5px !important;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
+.ajustesDeModalBoton{
+  padding-left: 0px !important;
+}
+.condicionalHidden{
+  display: none;
+}
+.iconos{
+  margin-left: 0px;
+  font-size: 30px;
+  width: 0px !important;
+  height: 0px !important;
+  display: initial;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+.ajustesIconos{
+  display: block;
+  cursor: pointer;
+}
+.icononota{
+  margin-left: 0px;
+  font-size: 26px;
+  width: 0px !important;
+  height: 0px !important;
+  display: initial;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.icononotaInfo{
+  margin-left: 0px;
+    font-size: 26px;
+    width: 0px !important;
+    height: 0px !important;
+    margin-right: 10px;
+    display: initial;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    color: coral;
+}
+
+
+
+.notas{
+  color: #fff;  
+  margin-left:-2px;
+  margin-bottom: 0px !important;
+}
+
+.iconoGuardar{
+    color: #ccc;
+    float: right;
+    font-size: x-large;
+    margin-top: 5px;
+}
+
+.mdDeseleccionado {
+  text-align: center !important;
+  vertical-align: middle !important;
+  background-color: #dee2e6b3;
+}
+
+.mdSeleccionado {
+  text-align: center !important;
+  vertical-align: middle !important;
+  background-color: #ffd14991;
+}
+
+.altoDelTermometro{
+    
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-width: 0px;
+    background-image: linear-gradient(#eef952,#3b48bf);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+.cuerpoDelTermometro{
+    padding-left: 6px;
+    border-left-width: 2px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    height: 100px;
+    width: 30px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    font-size: small;
+    background-image: linear-gradient(red,#f79c13);
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-left-radius: 10%;
+    border-top-right-radius:10%;
+}
+
+
+.baseDelTermometro{
+    padding-left: 6px;
+    border-left-width: 2px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    height: 100px;
+    width: 30px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    font-size: small;
+    background-image: linear-gradient(#f79c13,#eef952);
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+.ajusteColTermometro{
+  height: 95px;
+}
+
+.ajusteRowTermometro{
+  text-align: center;
+}
+.ajusteColTermometroArriba{
+  height: 135px;
+}
+
+.top-termometro {
+  border-top-left-radius: 1.5em !important;
+  border-top-right-radius: 1.5em !important;
+}
+
+.precio-selected-disable > span{
+  color: gray !important;
+}
+
+.precio-selected > span {
+  color: black !important;
+  font-weight: 700;
+}
+
+.precio-option, .cursor-pointer {
+  cursor: pointer;
+}
+
+.badge-custom{
+  background: #ccc !important;
+  margin-left: 0.25em;
+  padding: 0.25em 0.4em;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.badge-custom-selected{
+  background: #8c8b8b !important;
+  margin-left: 0.25em;
+  padding: 0.25em 0.4em;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}

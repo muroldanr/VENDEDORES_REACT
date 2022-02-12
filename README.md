@@ -1,3 +1,9 @@
+## Reportes
+
+
+
+![CHEESE!](public/reportes.jpeg)
+
 ## Registro de clientes
 
 Registre y administre a sus clientes.

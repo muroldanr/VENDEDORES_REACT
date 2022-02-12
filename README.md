@@ -4,6 +4,19 @@ Registre y administre a sus clientes.
 
 ![CHEESE!](public/clientes.jpeg)
 
+## Cotizaciones
+
+Seguimiento a cotizaciones.
+
+![CHEESE!](public/cotizaciones.jpeg)
+
+
+## Termometro de Venta
+
+Situación de tu posible venta FRIO / TIBIO / CALIENTE.
+
+![CHEESE!](public/termometro.jpeg)
+
 
 
 ## Carrito
@@ -11,6 +24,12 @@ Registre y administre a sus clientes.
 Selecciona un cliente previamente registrado, agrega ariculos al carrito.
 
 ![CHEESE!](public/carrito.jpeg)
+
+## Comunicación con el Cliente
+
+Via Llamada, WhatsApp, E-mail
+
+![CHEESE!](public/comunicacion.jpeg)
 
 
 

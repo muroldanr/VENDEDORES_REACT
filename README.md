@@ -1,10 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![CHEESE!](public/carrito.jpeg)
+
+
+Carrito
 
 ## Available Scripts
 
-In the project directory, you can run:
+Selecciona un cliente y una vez seleccionado, agrega ariculos al carrito.
+
+![CHEESE!](public/carrito.jpeg)
+
+Clientes
+
+## Available Scripts
+
+Registro de clientes
+
+![CHEESE!](public/clientes.jpeg)
 
 ### `npm start`
 

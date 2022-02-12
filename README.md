@@ -1,22 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Registro de clientes
+
+Registre y administre a sus clientes.
+
+![CHEESE!](public/clientes.jpeg)
 
 
 
-Carrito
+## Carrito
 
-## Available Scripts
-
-Selecciona un cliente y una vez seleccionado, agrega ariculos al carrito.
+Selecciona un cliente previamente registrado, agrega ariculos al carrito.
 
 ![CHEESE!](public/carrito.jpeg)
 
-Clientes
 
-## Available Scripts
 
-Registro de clientes
-
-![CHEESE!](public/clientes.jpeg)
 
 ### `npm start`
 

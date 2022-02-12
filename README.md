@@ -32,6 +32,13 @@ Via Llamada, WhatsApp, E-mail
 ![CHEESE!](public/comunicacion.jpeg)
 
 
+## Calendario de actividades
+
+El vendedor ve en el calendario las actividades que tiene por realizar durante el dia. 
+Clientes con los que debe tener contacto, enviar cotizaciones, etc.
+
+![CHEESE!](public/calendario.jpeg)
+
 
 
 ### `npm start`
